@@ -66,7 +66,7 @@ public class HttpClientClass {
             }
 
         } catch (Exception e) {
-            System.out.println("Houston, we have a problem with GET");
+            System.out.println("Problem with GET");
             e.printStackTrace();
         }
         return question;
