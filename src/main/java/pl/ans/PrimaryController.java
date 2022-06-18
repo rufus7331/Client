@@ -9,17 +9,17 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.RadioButton;
 import pl.ans.model.Answer;
 import pl.ans.model.Question;
 
 public class PrimaryController implements Initializable {
     @FXML private Label label;
-    @FXML private CheckBox answer1;
-    @FXML private CheckBox answer2;
-    @FXML private CheckBox answer3;
-    @FXML private CheckBox answer4;
+    @FXML private RadioButton answer1;
+    @FXML private RadioButton answer2;
+    @FXML private RadioButton answer3;
+    @FXML private RadioButton answer4;
     @FXML private Label points;
     @FXML private Button primaryButton;
     private int id = 0;
